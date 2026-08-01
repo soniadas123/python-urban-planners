@@ -1,0 +1,37 @@
+# Conda environment for the python-urban-planners course.
+#
+# Create it once:   conda env create -f environment.yml
+# Activate it:      conda activate urban-planners
+# Launch notebooks: jupyter lab
+#
+# Colab users do not need this file. The notebooks pip-install what they need
+# inside the Colab runtime via the `if 'google.colab'` guard.
+
+name: urban-planners
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+
+  # Tabular and vector
+  - pandas
+  - geopandas
+  - mapclassify        # classification schemes for choropleths (quantiles, natural breaks)
+  - folium             # backs GeoDataFrame.explore() interactive maps
+  - matplotlib         # static plots
+
+  # Raster (for later projects)
+  - rioxarray
+  - xarray-spatial
+
+  # Machine learning (for later projects)
+  - scikit-learn
+
+  # Notebook environment
+  - jupyterlab
+
+  # Optional, uncomment or add when a project needs them:
+  # - streamlit        # data-driven web apps
+  # - geoai-py         # deep learning (install with pip inside this env)
