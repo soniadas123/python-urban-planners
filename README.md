@@ -2,7 +2,7 @@
 
 Practical Python notebooks for urban planners, built around real Indian urban datasets and run in Google Colab. Each project is a self-contained notebook that goes from raw data to a map or analysis using established geospatial tools.
 
-Conventions follow Spatial Thoughts' [Python Foundation for Spatial Analysis](https://courses.spatialthoughts.com/python-foundation.html) and the University of Helsinki's [Automating GIS Processes (AutoGIS)](https://autogis-site.readthedocs.io/) course.
+References: Spatial Thoughts' [Python Foundation for Spatial Analysis](https://courses.spatialthoughts.com/python-foundation.html) and the University of Helsinki's [Automating GIS Processes (AutoGIS)](https://autogis-site.readthedocs.io/) course. This course material is heavily inspired from the above mentioned course. 
 
 ## Projects
 
@@ -16,7 +16,7 @@ Datasets are read directly from their source URLs, so no large files are committ
 
 Click the Open in Colab button for a project. It opens in Colab in view-only mode, which needs only a Google account, no GitHub required. To run and experiment, use File, then Save a copy in Drive to get your own copy. The first cell installs everything the notebook needs.
 
-Prefer to run locally? Create the conda environment once, then launch JupyterLab:
+Once the collab notebook opens, File>save a copy in Drive
 
     conda env create -f environment.yml
     conda activate urban-planners
