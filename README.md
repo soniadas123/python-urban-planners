@@ -8,17 +8,15 @@ Conventions follow Spatial Thoughts' [Python Foundation for Spatial Analysis](ht
 
 | # | Project | What it covers | Open |
 |---|---------|----------------|------|
-| 01 | GBA 369 Wards | Load, explore, reproject to UTM 43N, and build an area choropleth of Bengaluru's ward boundaries | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/soniadas123/python-urban-planners/blob/main/01-gba-wards/gba_wards.ipynb) |
+| 01 | GBA 369 Wards | Load, explore, reproject to UTM 43N, and build an area choropleth of Bengaluru's ward boundaries | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rlfT1k_kT2rWGoGVewu0UuQEdsjljYPo?usp=sharing) |
 
 ## Data
 
 Datasets are read directly from their source URLs, so no large files are committed to the repo. Ward boundaries come from [OpenCity](https://data.opencity.in), an urban data portal for Indian cities.
 
-## Running the notebooks
+Click the Open in Colab button for a project. It opens in Colab in view-only mode, which needs only a Google account, no GitHub required. To run and experiment, use File, then Save a copy in Drive to get your own copy. The first cell installs everything the notebook needs.
 
-Colab (recommended): click the Open in Colab badge for a project. The first cell installs what it needs, so there is nothing to set up locally.
-
-Local: create the conda environment once, then launch JupyterLab.
+Prefer to run locally? Create the conda environment once, then launch JupyterLab:
 
     conda env create -f environment.yml
     conda activate urban-planners
