@@ -16,11 +16,7 @@ Datasets are read directly from their source URLs, so no large files are committ
 
 Click the Open in Colab button for a project. It opens in Colab in view-only mode, which needs only a Google account, no GitHub required. To run and experiment, use File, then Save a copy in Drive to get your own copy. The first cell installs everything the notebook needs.
 
-Once the collab notebook opens, File>save a copy in Drive
 
-    conda env create -f environment.yml
-    conda activate urban-planners
-    jupyter lab
 
 ## License
 
